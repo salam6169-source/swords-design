@@ -56,10 +56,10 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;heigh
 <div class="cg">
 <div class="st">نوع السيف</div>
 <div class="og">
-<button class="ob active" onclick="setT('arabic')" id="t-arabic"><span class="ic">⚔️</span>السيف العربي</button>
+<button class="ob active" onclick="setT('arabic')" id="t-arabic"><span class="ic">⚔</span>السيف العربي</button>
 <button class="ob" onclick="setT('shamshir')" id="t-shamshir"><span class="ic">🌙</span>الشمشير</button>
 <button class="ob" onclick="setT('straight')" id="t-straight"><span class="ic">🔱</span>المستقيم</button>
-<button class="ob" onclick="setT('broad')" id="t-broad"><span class="ic">🛡️</span>العريض</button>
+<button class="ob" onclick="setT('broad')" id="t-broad"><span class="ic">🛡</span>العريض</button>
 <button class="ob" onclick="setT('yatagan')" id="t-yatagan"><span class="ic">🌟</span>الياتاغان</button>
 <button class="ob" onclick="setT('khanda')" id="t-khanda"><span class="ic">💫</span>الخانضة</button>
 </div>
@@ -114,18 +114,18 @@ input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:15px;heigh
 <script>
 var st={t:'arabic',m:'damascus',g:'ruby',l:75,w:5,sh:50};
 var types={
-  arabic:  {n:'السيف العربي',   d:72,s:85,du:90,mg:40},
-  shamshir:{n:'الشمشير',        d:80,s:92,du:75,mg:55},
-  straight:{n:'السيف المستقيم', d:78,s:78,du:95,mg:30},
-  broad:   {n:'السيف العريض',   d:95,s:60,du:98,mg:20},
-  yatagan: {n:'الياتاغان',      d:85,s:88,du:80,mg:65},
-  khanda:  {n:'الخانضة',        d:90,s:70,du:88,mg:50}
+  arabic:  {n:'السيف العربي',  d:72,s:85,du:90,mg:40},
+  shamshir:{n:'الشمشير',       d:80,s:92,du:75,mg:55},
+  straight:{n:'السيف المستقيم',d:78,s:78,du:95,mg:30},
+  broad:   {n:'السيف العريض',  d:95,s:60,du:98,mg:20},
+  yatagan: {n:'الياتاغان',     d:85,s:88,du:80,mg:65},
+  khanda:  {n:'الخانضة',       d:90,s:70,du:88,mg:50}
 };
 var mats={
   damascus:  {n:'فولاذ دمشقي',i:'⚔️',c1:'#d0d0d8',c2:'#8090a0',p:true},
-  gold:      {n:'ذهبي',       i:'✨',c1:'#ffd700',c2:'#c89000',p:false},
-  obsidian:  {n:'أوبسيديان',  i:'🖤',c1:'#3a3050',c2:'#0a0820',p:false},
-  moonsilver:{n:'فضة قمرية',  i:'🌙',c1:'#e8eeff',c2:'#8090cc',p:false}
+  gold:      {n:'ذهبي',      i:'✨',c1:'#ffd700',c2:'#c89000',p:false},
+  obsidian:  {n:'أوبسيديان',i:'🖤',c1:'#3a3050',c2:'#0a0820',p:false},
+  moonsilver:{n:'فضة قمرية',i:'🌙',c1:'#e8eeff',c2:'#8090cc',p:false}
 };
 var gems={
   ruby:    {c:'#cc2200',g:'#ff6644'},
